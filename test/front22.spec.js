@@ -26,5 +26,5 @@ describe('front22', function() {
 
     it('should always print the first two characters once in the front and once in the back, if the parameter has length bigger than 2', function() {
         assert.equal('hehellohe', front22('hello'));
-    })
+    });
 })
