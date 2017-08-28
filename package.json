@@ -1,0 +1,30 @@
+{
+  "name": "codingbat",
+  "version": "1.0.0",
+  "description": "Codingbat solutions in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteliosVoskos/CodingBatSolutions.git"
+  },
+  "author": "Stelios Voskos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteliosVoskos/CodingBatSolutions/issues"
+  },
+  "homepage": "https://github.com/SteliosVoskos/CodingBatSolutions#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "keywords": []
+}
