@@ -41,7 +41,15 @@ describe('loneTeen', function() {
     });
 
     it('should return false if both params are between 13 and 19', function() {
-        assert.equal(false, loneTeen(14, 14));
+        assert.equal(false, loneTeen(14, 17));
+    });
+
+    it('should return false if both params are 13', function() {
+        assert.equal(false, loneTeen(13, 13));
+    });
+
+    it('should return false if both params are 19', function() {
+        assert.equal(false, loneTeen(19, 19));
     });
 
     it('should return false if neither param is between 13 and 19', function() {
