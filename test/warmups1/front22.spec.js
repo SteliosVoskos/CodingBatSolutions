@@ -1,15 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function front22(str) {
-    if (!str.length) {
-        return '';
-    }
-    if (str.length === 1) {
-        return str+str+str;
-    }
-    return str.substring(0,2)+str+str.substring(0,2);
-}
+var front22 = require('../../src/warmups1/front22');
 
 describe('front22', function() {
     it('should be defined', function() {

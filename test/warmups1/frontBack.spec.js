@@ -1,12 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function frontBack(str) {
-  if (str.length <= 1) {
-    return str;
-  }
-  return str.substring(str.length - 1) + str.substring(1, str.length - 1) + str.substring(0, 1);
-}
+var frontBack = require('../../src/warmups1/frontBack');
 
 describe("Front Back", function () {
   it("should define a function called frontBack()", function () {

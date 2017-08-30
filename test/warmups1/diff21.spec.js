@@ -1,9 +1,7 @@
 var assert = require('assert');
 var expect = require('chai').expect;
+var diff21 = require('../../src/warmups1/diff21');
 
-function diff21(n) {
-  return n > 21 ? 2 * (n - 21) : Math.abs(n - 21);
-}
 describe("Diff 21", function () {
   it("should define a function called diff21", function () {
     expect(diff21(15)).to.be.defined;
