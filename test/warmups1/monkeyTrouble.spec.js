@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function monkeyTrouble(aSmile, bSmile) {
-  return aSmile === bSmile;
-}
+var monkeyTrouble = require('../../src/warmups1/monkeyTrouble');
 
 describe("Monkey Trouble", function () {
   it("should be defined", function () {
