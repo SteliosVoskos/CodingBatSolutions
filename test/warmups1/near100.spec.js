@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function near100(n) {
-  return Math.abs(n - 100) <= 10 || Math.abs(n - 200) <= 10;
-}
+var near100 = require('../../src/warmups1/near100');
 
 describe("Near 100", function () {
   it("should define a function called near100", function () {

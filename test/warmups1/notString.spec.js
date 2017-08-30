@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function notString(str) {
-  return str.length >= 3 && str.substring(0,3) === 'not' ? str : 'not ' + str;
-}
+var notString = require('../../src/warmups1/notString');
 
 describe("Not String", function () {
   it("should define a function called notString", function () {

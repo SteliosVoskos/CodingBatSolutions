@@ -1,11 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function makes10(a, b) {
-  return (a + b === 10) ||
-  (a === 10 && b === 10) ||
-  ((a === 10 && b !== 10) || ((a !== 10 && b === 10)));
-}
+var makes10 = require('../../src/warmups1/makes10');
 
 describe("Makes 10", function () {
   it("should define a function called makes10", function () {

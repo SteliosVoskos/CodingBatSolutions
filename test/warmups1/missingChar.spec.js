@@ -1,12 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function missingChar(str, n) {
-  if (n > str.length) {
-    return str;
-  }
-  return str.substring(0, n) + str.substring(n + 1);
-}
+var missingChar = require('../../src/warmups1/missingChar');
 
 describe("Missing Char", function () {
   it("should define a function called missingChar", function () {
