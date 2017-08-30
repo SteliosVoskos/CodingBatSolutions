@@ -1,12 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function in1020(firstNum, secondNum) {
-    if (typeof firstNum !== 'number' || typeof secondNum !== 'number') {
-        return false;
-    }
-    return (firstNum >= 10 && firstNum <= 20) || (secondNum >= 10 && secondNum <= 20); 
-}
+var in1020 = require('../../src/warmups1/int1020');
 
 describe('in1020', function() {
     it('should be defined', function() {
