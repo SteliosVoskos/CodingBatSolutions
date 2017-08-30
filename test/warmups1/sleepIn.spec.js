@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function sleepIn(weekday, vacation) {
-  return !weekday || vacation;
-};
+var sleepIn = require('../../src/warmups1/sleepIn');
 
 describe("Sleep In", function () {
   it("should be defined", function () {

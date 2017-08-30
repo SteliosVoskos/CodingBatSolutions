@@ -1,12 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function or35(number) {
-    if (number < 0) {
-        return false;
-    }
-    return number % 3 === 0 || number % 5 === 0;
-};
+var or35 = require('../../src/warmups1/or35');
 
 describe('or35', function() {
     it('should always be defined', function() {

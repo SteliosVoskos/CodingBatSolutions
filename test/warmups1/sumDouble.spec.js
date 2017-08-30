@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function sumDouble(a, b) {
-  return a === b ? 2 * (a + b) : a + b;
-}
+var sumDouble = require('../../src/warmups1/sumDouble');
 
 describe("Sum Double", function () {
   it("should define a function called sumDouble", function () {

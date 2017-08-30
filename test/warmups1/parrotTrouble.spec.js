@@ -1,9 +1,6 @@
 var assert = require('assert');
 var expect = require('chai').expect;
-
-function parrotTrouble(talking, hour) {
-  return talking && (hour >= 0 && hour <= 6);
-}
+var parrotTrouble = require('../../src/warmups1/parrotTrouble');
 
 describe("Parrot Trouble", function () {
   it("should define a function called parrotTrouble", function () {

@@ -1,10 +1,7 @@
 'use strict'
 const assert = require('assert');
 const expect = require('chai').expect;
-
-const posNeg = (a, b, negative) => {
-  return negative ? a < 0 && b < 0 : (a <= 0 && b > 0) || (a > 0 && b <= 0);
-};
+var posNeg = require('../../src/warmups1/posNeg');
 
 describe("Pos Neg", () => {
   it("should define a function called posNeg", () => {
