@@ -16,11 +16,11 @@ describe("Makes 10", function () {
   });
 
   it("should return true if the two numbers sum up to 10", function () {
-    assert.equal(true, makes10(5,5));
+    assert.equal(true, makes10(5, 5));
   });
 
   it("should return false if the numbers don't sum up to 10 and neither of them is the number 10", function () {
-    assert.equal(false, makes10(2,4));
+    assert.equal(false, makes10(2, 4));
   });
 
   it("should return true if both parameters are the number 10", function () {
