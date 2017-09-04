@@ -13,5 +13,5 @@ describe('delDel', function() {
 
     it('should return the givenString unchanged if the string does not include del at the first index', function() {
         assert.equal('abc', delDel('abc'));
-    })
+    });
 });
