@@ -30,4 +30,4 @@ describe('altPairs', function() {
     it('should not return wrong results', function() {
         assert.notEqual('Hellos', altPairs('Hellos'));
     });
-})
+});

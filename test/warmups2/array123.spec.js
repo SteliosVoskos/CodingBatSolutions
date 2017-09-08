@@ -22,4 +22,4 @@ describe('array123', function() {
     it('should not return true if the digits 1,2,3 are not present in a row in the given array', function() {
         assert.notEqual(true, array123([2, 1, 2, 2, 2]));
     });
-})
+});
