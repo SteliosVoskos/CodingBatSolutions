@@ -36,5 +36,5 @@ describe("copies3", () => {
     expect(copies3([1, 2, 3])).to.deep.equal([
       '111', '222', '333'
     ]);
-  })
+  });
 });
