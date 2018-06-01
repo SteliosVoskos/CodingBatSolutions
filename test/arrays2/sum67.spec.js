@@ -2,7 +2,6 @@
 
 const assert = require('chai').assert;
 const expect = require('chai').expect;
-const http = require('http');
 const sum67 = require('../../src/arrays2/sum67');
 
 describe('sum67', () => {
