@@ -9,7 +9,7 @@ A repository that contains solutions and unit tests for the codingbat exercises 
 ## chunkArray (Technical test): Running the code and the tests
     ```shell
     cd CodingBatSolutions/src/technicalTest
-    node chunkArray.js
+    node chunkArray.js // runs the solution
     npm run test // runs the tests
     ```
 
