@@ -10,6 +10,14 @@ describe('Chunk Array', () => {
         expect(() => chunkArray([])).to.throw(Error);
     });
 
+    it("should throw an error if the givenArray is not an array", function () {
+        expect(() => chunkArray('1')).to.throw(Error);
+    });
+
+    it("should throw an error if the chunkLength is not a number", function () {
+        expect(() => chunkArray('1', [])).to.throw(Error);
+    });
+
     it("should throw an error if the chunkLength is 0", function () {
         expect(() => chunkArray([1, 2, 3, 4], 0)).to.throw(Error);
     });
